@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 350;
 const currentFrame = index => (
-  `img/${index.toString().padStart(4, '0')}.jpg`
+  `https://framebystore.cafe24.com/text_file/airbumper/${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {
